@@ -176,10 +176,6 @@
     }
     .explore-section .explore span{ 
         margin: 0 auto;
-    }
-    .butn {
-        width: 22%;
-        margin: 0 auto;
     } 
     .tour-section .image {
         overflow: hidden;
@@ -190,6 +186,10 @@
     .tour-section .image img{
         margin :10px 0;
     }
+    .butn {
+        width: 30%;
+        margin: 0 auto;
+    } 
 }
 @media (max-width:400px){
     .butn {
@@ -211,4 +211,10 @@
     .explore-section .explore h1 {
         font-size: 35px;
     }
+}
+@media (max-width:320){
+    .butn {
+        width: 35%;
+        margin: 0 auto;
+    } 
 }
