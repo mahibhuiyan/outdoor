@@ -49,7 +49,8 @@ nav span{
 	
     border-radius: 35px; 
     text-align: center;
-    display: inline-block;
+    display: block;
+
 }
 .navbar-light .navbar-nav .btn-info:hover{
     color: #fff !important;
@@ -97,7 +98,7 @@ nav span{
 	background: #ec304a;
 	border: 2px solid #ec304a;
 	border-radius: 35px;
-	padding: 10px 35px;
+    padding: 10px 35px;
 }
 .banner .btn-info:hover{ 
 	color: #ec304a;
