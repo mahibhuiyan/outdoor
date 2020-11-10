@@ -139,25 +139,28 @@
 }
 @media (max-width:570px){
     .banner h3 {
-        font-size: 25px;
+        font-size: 20px;
     }
     .banner span {
-        width: 68px;
+        width: 48px;
     }
     .banner h1 {
-        font-size: 42px;
+        font-size: 28px;
     }
     .title h2 {
-        font-size: 28px;
+        font-size: 23px;
+    }
+    .quote-section {
+        padding: 25px 0;
     }
     .quote i {
         font-size: 60px;
     }
     .quote h2 {
-        font-size: 20px;
+        font-size: 18px;
     }
     .quote h3 {
-        font-size: 13px;
+        font-size: 11px;
     }
     .tour-section .fst span {
         margin: 15px auto;
@@ -177,22 +180,35 @@
     .butn {
         width: 22%;
         margin: 0 auto;
-    }
+    } 
     .tour-section .image {
         overflow: hidden;
-        margin: 12px auto;
+        margin: 0px auto;
         width: 73%;
         border-radius: 5px;
     }
-}
-@media (max-width:320px){
-    .butn {
-        width: 28%;
-        margin: 0 auto;
+    .tour-section .image img{
+        margin :10px 0;
     }
-    .banner h1 {
-        font-size: 40px;
-        margin: 15px 0 40px;
-        animation: none;
+}
+@media (max-width:400px){
+    .butn {
+        width: 30%;
+        margin: 0 auto;
+    } 
+    .banner .btn-info {
+        font-size: 12px; 
+        border-radius: 35px;
+        padding: 8px 28px;
+    }
+    .event-section .event {
+        width: 100%;
+        padding: 10px;
+    }
+    .event-section .event-content p { 
+        font-size: 16px;
+    }
+    .explore-section .explore h1 {
+        font-size: 35px;
     }
 }
